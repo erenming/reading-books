@@ -12,7 +12,7 @@
 
 - redis设计与实现
 
-## READED
+## READ
 
 - [流畅的Python](https://github.com/erenming/learn_fluentpython)
 
@@ -21,3 +21,5 @@
 - HTTP权威指南(无笔记)
 
 - CSAPP(笔记待整理)
+
+- 高性能MySQL(3-6章)

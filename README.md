@@ -4,7 +4,7 @@
 
 ## RAEDING
 
-- MySQL技术内幕
+- [MySQL技术内幕](https://github.com/erenming/reading-books/tree/master/inside-mysql/notes)
 
 - [算法第四版](https://github.com/erenming/LearnAlgs4)
 

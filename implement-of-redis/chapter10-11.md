@@ -2,7 +2,7 @@
 
 - 数据库状态：Redis服务器中的非空数据库以及它们的键值对统称
 - 通过保存数据库中的键值对来记录数据库状态
-- RDB文件的创建于载入
+- RDB文件的创建与载入
     1. 使用SAVE(同步阻塞)或BGSAVE(多进程异步)
     2. Redis在启动时检测到RDB文件存在，它就会自动载入RDB文件
     ![xx](https://raw.githubusercontent.com/erenming/reading-books/master/implement-of-redis/images/WX20190514-164801@2x.png)

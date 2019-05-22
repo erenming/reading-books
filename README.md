@@ -4,15 +4,17 @@
 
 ## RAEDING
 
-- [MySQL技术内幕](https://github.com/erenming/reading-books/tree/master/inside-mysql/notes)
-
 - [算法第四版](https://github.com/erenming/LearnAlgs4)
 
 ## TO READ
 
-- redis设计与实现
+- 算法导论
 
 ## READ
+
+- [redis设计与实现(部分)](https://github.com/erenming/reading-books/tree/master/implement-of-redis)
+
+- [MySQL技术内幕(部分)](https://github.com/erenming/reading-books/tree/master/inside-mysql/notes)
 
 - [流畅的Python](https://github.com/erenming/learn_fluentpython)
 

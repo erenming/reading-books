@@ -6,6 +6,8 @@
 
 - [算法第四版](https://github.com/erenming/LearnAlgs4)
 
+- 程序员修炼之道-从小工到专家
+
 ## TO READ
 
 - 算法导论

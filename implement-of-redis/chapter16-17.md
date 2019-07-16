@@ -1,8 +1,9 @@
 # Sential
 
 - Sential是Redis高可用性的解决方案
-    1. 由一个或多个Sential实例组成的Sential系统可以监视多个主服务器以及其下从服务器
-    2. 当被监视的主服务器进入下线状态时，自动将该主服务器下的某个从服务器升级为主服务器
+    1. 由一个或多个Sential实例组成的Sential系统, 监视多个主服务器以及其下从服务器
+    2. 当被监视的主服务器进入下线状态时，自动将该主服务器下的某个从服务器升级为主服务器, 然后由新的主服务器处理命令请求
+    ![xx](https://raw.githubusercontent.com/erenming/reading-books/master/implement-of-redis/images/WX20190705-112716@2x.png)
 - 选举领头Sential
     1. 先到先得原则：最先想目标Sentinel发送设置要求的源Sential将成为目标Sential的局部领头，而之后收到的所有设置要求都会被拒绝
     2. 如果某个Sential被**半数**以上的Sential设置成了局部领头，那么这个Sential成为领头Sential
